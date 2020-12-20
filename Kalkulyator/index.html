@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+
+<div align="center">
+<h1><input id="result" size="20" type="text" name="result" value="0">
+<br>
+<button class="button" onclick="addDigit(1)">1</button>
+<button class="button" onclick="addDigit(2)">2</button>
+<button class="button" onclick="addDigit(3)">3</button>
+<button class="button" onclick="operation(0)">/</button>
+</br>
+<br>
+<button class="button" onclick="addDigit(4)">4</button>
+<button class="button" onclick="addDigit(5)">5</button>
+<button class="button" onclick="addDigit(6)">6</button>
+<button class="button" onclick="operation(1)">*</button>
+</br>
+<br>
+<button class="button" onclick="addDigit(7)">7</button>
+<button class="button" onclick="addDigit(8)">8</button>
+<button class="button" onclick="addDigit(9)">9</button>
+<button class="button" onclick="operation(2)">-</button>
+</br>
+<br>
+<button class="button" onclick="addDigit(0)" id="zero">0</button>
+<button class="button" onclick="resetAll()">C</button>
+<button class="button" onclick="operation(3)">+</button>
+</br>
+<br>
+<button class="button" id="calculate" onclick="calculate()"> = </button>
+</div></h1>
+
+<script type="text/javascript" src="js.js"> </script>
+</body>
+</html>

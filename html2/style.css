@@ -1,0 +1,32 @@
+.gameOver {
+	font-size: 300px;
+	text-shadow: 0px 0px 30px;
+	text-underline-position: center;
+	transition: 3s ease;
+}
+
+a:link{
+	color: #FF00FF;
+}
+
+a:visited{
+	color: #F0F;
+}
+
+a:active{
+	color: #FF0;
+}
+
+a:hover{
+	color: #C00;	
+}
+
+.bigTablet{
+	text-shadow: 0px 0px 5px lightgreen;
+	font-size: 30px;
+}
+
+#id1:hover {
+	color: #C00;
+	transition: 3s;
+}
